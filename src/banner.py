@@ -21,5 +21,5 @@ def menu():
   99) Similar Tools
    x) About Author
    
-<== Type OFF to Exit ==>
+<== Type 'off' to Exit ==>
    """ )
