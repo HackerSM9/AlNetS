@@ -20,7 +20,7 @@ YP   YP Y88888P VP   V8P Y88888P    YP    `8888Y'
 
 
 def menu():
-    print(f"""{0}
+    print(f"""{light_violet}
    0) Check Version 
    1) Scan URL
    2) Scan IP Address
@@ -28,6 +28,6 @@ def menu():
    4) Ping (URL/IP Add)
    9) Similar Tools
    x) About Author
- {1}
+ {yellow}
 <== Type 'off' to Exit ==>
    """.format(light_violet,yellow) )
