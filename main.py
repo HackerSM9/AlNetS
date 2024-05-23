@@ -35,7 +35,7 @@ elif choice == "9":
     os.system("termux-open-url https://github.com/HackerSM9/ip-tracker")
 elif choice == "x":
     os.system("termux-open-url https://github.com/HackerSM9/")
-elif choice == "off" or "OFF":
+elif choice == "off":
     sys.exit()
 else:
     print(":( No Option from Above List. ")
