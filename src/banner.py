@@ -1,3 +1,5 @@
+
+
 def banner():
     print("""
 
@@ -18,7 +20,7 @@ def menu():
    2) Scan IP Address
    3) Scan DNS (URL/IP Add)
    4) Ping (URL/IP Add)
-  99) Similar Tools
+   9) Similar Tools
    x) About Author
    
 <== Type 'off' to Exit ==>

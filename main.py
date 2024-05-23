@@ -1,11 +1,21 @@
 import os,sys
 from src import banner
+from src import color
+
+red = '\033[1;31m'
+green = '\033[1;32m'
+yellow = '\033[1;33m'
+violet = '\033[1;34m'
+cyan = '\033[0;96m'
+end = '\033[0m'
+question = yellow+'['+red+'?'+yellow+']'+end
+tick = yellow+'['+green+'✓'+yellow+']'+end
 
 os.system("clear")
 banner.banner()
 banner.menu()
 
-choice = input("Choose Your Option: ")
+choice = input(question+" Choose Your Option: ")
 
 if choice == "0":
     os.system("clear")
