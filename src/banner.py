@@ -13,9 +13,13 @@ YP   YP Y88888P VP   V8P Y88888P    YP    `8888Y'
 
 def menu():
     print("""
-   
    0) Check Version 
    1) Scan URL
    2) Scan IP Address
+   3) Scan DNS (URL/IP Add)
+   4) Ping (URL/IP Add)
+  99) Similar Tools
+   x) About Author
    
+<== Type OFF to Exit ==>
    """ )
