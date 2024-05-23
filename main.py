@@ -2,12 +2,13 @@ import os,sys
 from src import banner
 
 red = '\033[1;31m'
+dark_red = '\033[0;91m'
 green = '\033[1;32m'
 yellow = '\033[1;33m'
 violet = '\033[1;34m'
 cyan = '\033[0;96m'
 end = '\033[0m'
-question = yellow+'['+red+'?'+yellow+']'+end
+question = yellow+'['+dark_red+'?'+yellow+']'+end
 tick = yellow+'['+green+'✓'+yellow+']'+end
 
 os.system("clear")
