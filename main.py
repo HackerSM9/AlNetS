@@ -14,7 +14,7 @@ os.system("clear")
 banner.banner()
 banner.menu()
 
-choice = input(question+"{cyan}Choose Your Option:{end} ")
+choice = input(question+f"{cyan}Choose Your Option:{end} ")
 
 if choice == "0":
     os.system("clear")
