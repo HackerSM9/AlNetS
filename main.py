@@ -1,6 +1,5 @@
 import os,sys
 from src import banner
-from src import color
 
 red = '\033[1;31m'
 green = '\033[1;32m'
