@@ -30,4 +30,4 @@ def menu():
    x) About Author
  {yellow}
 <== Type 'off' to Exit ==>
-   """.format(light_violet,yellow) )
+   """)
