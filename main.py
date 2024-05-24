@@ -24,7 +24,7 @@ if choice == "0":
 elif choice == "1":
     os.system("clear")
     banner.banner()
-    url = input(f"{cyan}Enter URL:{green}")
+    url = input(f"{cyan}Enter URL:{green} ")
     os.system("nmap {}".format(url))
 elif choice == "2":
     os.system("clear")
