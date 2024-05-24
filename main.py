@@ -15,7 +15,7 @@ os.system("clear")
 banner.banner()
 banner.menu()
 
-choice = input(question+f"{cyan} Choose Your Option: ")
+choice = input(question+f"{cyan} Choose Your Option:{green} ")
 
 if choice == "0":
     os.system("clear")
@@ -48,4 +48,4 @@ elif choice == "x":
 elif choice == "off":
     sys.exit()
 else:
-    print(":( No Option from Above List. ")
+    print("\nNo Option from Above List :(")
