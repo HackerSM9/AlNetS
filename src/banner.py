@@ -1,5 +1,5 @@
-red = '\033[0;31m'
-dark_red = '\033[0;91m'
+red = '\033[0;91m'
+dark_red = '\033[1;91m'
 green = '\033[1;32m'
 yellow = '\033[1;33m'
 light_violet = '\033[1;94m'

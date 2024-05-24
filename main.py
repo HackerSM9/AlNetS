@@ -2,7 +2,7 @@ import os,sys
 from src import banner
 
 red = '\033[1;31m'
-dark_red = '\033[0;91m'
+dark_red = '\033[1;31m'
 green = '\033[1;32m'
 yellow = '\033[1;33m'
 violet = '\033[1;34m'
@@ -15,7 +15,7 @@ os.system("clear")
 banner.banner()
 banner.menu()
 
-choice = input(question+f"{cyan} Choose Your Option:{end} ")
+choice = input(question+f"{cyan} Choose Your Option: ")
 
 if choice == "0":
     os.system("clear")
@@ -24,22 +24,22 @@ if choice == "0":
 elif choice == "1":
     os.system("clear")
     banner.banner()
-    url = input("Enter URL: ")
+    url = input(f"{cyan}Enter URL: ")
     os.system("nmap {}".format(url))
 elif choice == "2":
     os.system("clear")
     banner.banner()
-    ip_add = input("Enter IP Address: ")
+    ip_add = input(f"{cyan}Enter IP Address: ")
     os.system("nmap {}".format(ip_add))
 elif choice == "3":
     os.system("clear")
     banner.banner()
-    dns = input("Enter DNS (URL/IP Add): ")
+    dns = input(f"{cyan}Enter DNS (URL/IP Add): ")
     os.system("nmap {}".format(dns))
 elif choice == "4":
     os.system("clear")
     banner.banner()
-    ping = input("Enter URL/IP Address to Ping: ")
+    ping = input(f"{cyan}Enter URL/IP Address to Ping: ")
     os.system("nmap -sP {}".format(ping))
 elif choice == "9":
     os.system("termux-open-url https://github.com/HackerSM9/ip-tracker")
