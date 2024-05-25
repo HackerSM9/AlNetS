@@ -1,7 +1,7 @@
 red = '\033[0;91m'
 dark_red = '\033[1;91m'
 green = '\033[0;32m'
-instance_green = '\033[1;93'
+instance_green = '\033[1;92m'
 yellow = '\033[1;33m'
 light_yellow = '\033[0;93m'
 light_violet = '\033[1;94m'
