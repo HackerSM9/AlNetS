@@ -47,5 +47,7 @@ elif choice == "x":
     os.system("termux-open-url https://github.com/HackerSM9/")
 elif choice == "off":
     sys.exit()
+elif choice == "":
+    print(f"\n{red}No Input :/\n")
 else:
-    print("\nNo Option from Above List :(\n")
+    print(f"\n{red}No Option from Above List :(\n")
