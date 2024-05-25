@@ -4,7 +4,8 @@ green = '\033[1;32m'
 yellow = '\033[1;33m'
 light_yellow = '\033[0;93m'
 light_violet = '\033[1;94m'
-magenta = '\033[0;95m'
+magenta = '\033[0;35m'
+pink = '\033[1;95m'
 end = '\033[0m'
 question = yellow+'['+red+'?'+yellow+']'+end
 tick = yellow+'['+green+'✓'+yellow+']'+end
@@ -20,7 +21,7 @@ def banner():
  /   /  \\\   \( \_|: \|    \    \ |(:      "|    \\\: |    /" \   :)  
 (___/    \___)\_______)\___|\____\) \_______)     \__|   (_______/   
                                                                      
-     <======= All Network Scanner By HackerSM9 | v0.1 =======> 
+     {pink}<======= {green}All Network Scanner By HackerSM9 | v0.1 {pink}=======> 
                                                   
  {end}  """ )
 
