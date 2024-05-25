@@ -48,4 +48,4 @@ elif choice == "x":
 elif choice == "off":
     sys.exit()
 else:
-    print("\nNo Option from Above List :(")
+    print("\nNo Option from Above List :(\n")
