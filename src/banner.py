@@ -1,15 +1,13 @@
 red = '\033[0;91m'
 dark_red = '\033[1;91m'
-green = '\033[1;32m'
+green = '\033[0;32m'
+instance_green = '\033[1;93'
 yellow = '\033[1;33m'
 light_yellow = '\033[0;93m'
 light_violet = '\033[1;94m'
 magenta = '\033[0;35m'
 pink = '\033[1;95m'
-
-title_bg = ''
-author_bg = '\033[10;95m'
-version_bg = ''
+cyan = '\033[1;96m'
 
 end = '\033[0m'
 
@@ -27,7 +25,7 @@ def banner():
  /   /  \\\   \( \_|: \|    \    \ |(:      "|    \\\: |    /" \   :)  
 (___/    \___)\_______)\___|\____\) \_______)     \__|   (_______/   
                                                                      
-     {pink}<======= {green}All Network Scanner By {author_bg}HackerSM9{pink} | v0.1 {pink}=======> 
+     {pink}<======= {instance_green}All Network Scanner{pink} By {cyan}HackerSM9{pink} | {green}v0.1 {pink}=======> 
                                                   
  {end}  """ )
 
