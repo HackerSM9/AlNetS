@@ -2,6 +2,7 @@ red = '\033[0;91m'
 dark_red = '\033[1;91m'
 green = '\033[1;32m'
 yellow = '\033[1;33m'
+light_yellow = '\033[0;33m'
 light_violet = '\033[1;94m'
 magenta = '\033[0;95m'
 end = '\033[0m'
@@ -33,6 +34,6 @@ def menu():
    4) Ping (URL/IP Add)
    9) Similar Tools
    x) About Author
- {yellow}
-<== Type {dark_red}'off'{yellow} to Exit ==>
+ {light_yellow}
+<== Type {dark_red}'off'{light_yellow} to Exit ==>
    """)
