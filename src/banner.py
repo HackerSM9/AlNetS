@@ -3,12 +3,13 @@ dark_red = '\033[1;91m'
 green = '\033[1;32m'
 yellow = '\033[1;33m'
 light_violet = '\033[1;94m'
+magenta = '\033[0;35m'
 end = '\033[0m'
 question = yellow+'['+red+'?'+yellow+']'+end
 tick = yellow+'['+green+'✓'+yellow+']'+end
 
 def banner():
-    print(f"""{red}
+    print(f"""{magenta}
 
       __      ___      _____  ___    _______  ___________  ________  
      /""\    |"  |    (\"   \|"  \  /"     "|("     _   ")/"       ) 
