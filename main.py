@@ -1,5 +1,5 @@
 import os,sys
-from src import banner
+import src.banner as abs
 
 red = '\033[1;31m'
 dark_red = '\033[1;31m'
@@ -12,33 +12,35 @@ question = yellow+'['+dark_red+'?'+yellow+']'+end
 tick = yellow+'['+green+'✓'+yellow+']'+end
 
 os.system("clear")
-banner.banner()
-banner.menu()
+
+mdl = abs.AlnetsBanners()
+mdl.banner()
+mdl.menu()
 
 choice = input(question+f"{cyan} Choose Your Option:{green} ")
 
 if choice == "0":
     os.system("clear")
-    banner.banner()
+    mdl.banner()
     os.system("nmap -V")
 elif choice == "1":
     os.system("clear")
-    banner.banner()
+    mdl.banner()
     url = input(f"{cyan}Enter URL:{green} ")
     os.system("nmap {}".format(url))
 elif choice == "2":
     os.system("clear")
-    banner.banner()
+    mdl.banner()
     ip_add = input(f"{cyan}Enter IP Address:{green} ")
     os.system("nmap {}".format(ip_add))
 elif choice == "3":
     os.system("clear")
-    banner.banner()
+    mdl.banner()
     dns = input(f"{cyan}Enter DNS (URL/IP Add):{green} ")
     os.system("nmap {}".format(dns))
 elif choice == "4":
     os.system("clear")
-    banner.banner()
+    mdl.banner()
     ping = input(f"{cyan}Enter URL/IP Address to Ping:{green} ")
     os.system("nmap -sP {}".format(ping))
 elif choice == "9":
