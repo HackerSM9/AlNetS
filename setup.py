@@ -1,6 +1,12 @@
 import subprocess
 import os,sys
 import time
+import src.banner as abs
+
+os.system("clear")
+
+mdl = abs.AlnetsBanners()
+
 
 print("Installing Packages and Requirements...")
 
