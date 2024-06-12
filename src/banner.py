@@ -5,8 +5,8 @@ instance_green = '\033[1;92m'
 yellow = '\033[1;33m'
 light_yellow = '\033[0;93m'
 light_violet = '\033[1;94m'
-magenta = '\033[0;35m'
-pink = '\033[1;95m'
+magenta = '\033[1;95m'#35
+pink = '\033[0;35m'#1;95
 cyan = '\033[1;96m'
 
 end = '\033[0m'
