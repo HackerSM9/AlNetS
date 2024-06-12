@@ -43,4 +43,4 @@ class AlnetsBanners():
    x) About Author
  {light_yellow}
 <== Type {dark_red}'off'{light_yellow} to Exit ==>
-   """)
+   {green}""")
